@@ -12,7 +12,7 @@ Turbo also supports running ASP.NET applications within a container. In this exa
 
 ```
 # Create a new container with .NET, ASP.NET, Firefox and git
-C:\> turbo run microsoft/dotnet,microsoft/aspnet,mozilla/firefox,git/git
+C:\> turbo run -w="c:" -d --startup-file=cmd.exe microsoft/dotnet,microsoft/aspnet,mozilla/firefox,git/git
 
 Downloading dotnet from https://turbo.net/users/microsoft
 Downloading aspnet from https://turbo.net/users/microsoft
